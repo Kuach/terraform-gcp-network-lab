@@ -1,3 +1,19 @@
+# Infrastructure as Code with Terraform on Google Cloud
+
+Academic lab report on provisioning a virtual machine and its network resources with Terraform.
+
+## Overview
+
+The report documents Google Cloud provider configuration, a VPC network, a custom subnet, and a Debian VM. It includes variable and output examples, the Terraform resource lifecycle, and an explanation of internal and external IP addresses.
+
+**Topics:** Terraform, Google Cloud Compute Engine, VPC networking, subnets, IP addressing.
+
+**Format:** Terraform configuration examples are embedded in this README; standalone `.tf` files are not included. The original university report below is in Ukrainian.
+
+---
+
+## Original lab report
+
 # Мета роботи
 
 За допомогою Terraform максимально оптимізувати процес створення віртуальної машини у сабнетворк в новому проекті. Пояснити internal та external IP-адреси.
